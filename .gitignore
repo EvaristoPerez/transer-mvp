@@ -6,9 +6,21 @@ dist
 build
 *.log
 .DS_Store
-.env*.local
 .vercel
 .idea
 *.swp
 *.swo
 *~
+
+# Environment variables - never commit secrets!
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env*.local
+**/.env
+**/.env.local
+**/.env.development
+**/.env.test
+**/.env.production
