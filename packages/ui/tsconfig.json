@@ -1,0 +1,9 @@
+{
+  "extends": "@transer/tsconfig/base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": ["index.ts", "components"],
+  "exclude": ["node_modules"]
+}

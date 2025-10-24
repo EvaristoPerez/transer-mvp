@@ -1,0 +1,14 @@
+node_modules
+.turbo
+.next
+.expo
+dist
+build
+*.log
+.DS_Store
+.env*.local
+.vercel
+.idea
+*.swp
+*.swo
+*~

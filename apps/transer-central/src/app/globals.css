@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@source "../../../../packages/ui/**/*.{js,ts,jsx,tsx}";
+
+@theme {
+  /* Japandi-inspired palette - Refined Colors */
+
+  /* Base Neutrals (Scandinavian influence - light, airy) */
+  --color-linen: #F8F5F1;     /* Softer, slightly warmer off-white than #F5F5F0 */
+  --color-sand: #EAE2DC;     /* A slightly lighter, more muted warm light neutral */
+  --color-pebble: #DCD7D2;   /* A light, cool-ish grey-beige, very subtle */
+
+  /* Earthy Mid-Tones (Japanese influence - grounded, natural) */
+  --color-pebbler: #767D89; /*A Mid tone pebble gray */
+  --color-clay: #BFA597;     /* A softer, more muted brown-beige than #A58D7F */
+  --color-sage: #9CA797;     /* A slightly deeper, more natural muted green */
+  --color-terracotta: #D7957F; /* A warm, muted terracotta, less orange than before */
+
+  /* Depth & Contrast (Japanese influence - grounding, elegant) */
+  --color-charcoal: #3D454A; /* A soft, deep charcoal with a slight blue/brown undertone, more elegant than pure black */
+  --color-espresso: #705B5C; /* A rich, muted dark beige/brown, replacing the heavy brown.900 */
+
+  /* Font families */
+  --font-sans: "Noto Sans JP", "Inter", sans-serif; /* Keep Inter as a fallback */
+}
